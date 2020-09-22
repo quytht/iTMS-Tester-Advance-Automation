@@ -9,6 +9,7 @@ driver.get("http://google.com")
 driver.manage.window.maximize
 puts driver.manage.window.size
 sleep 2
+# hhh
 
 #Get Page source
 String pageSource = driver.getPageSource();
