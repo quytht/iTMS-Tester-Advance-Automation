@@ -12,6 +12,12 @@ sleep 2
 # hhh
 
 #Get Page source
-String pageSource = driver.getPageSource();
+pageSource = driver.page_source
+puts "page source: #{pageSource}"
 
+sleep 2 
+
+puts "Loaded pagesource successfully"
+
+sleep 2
 driver.quit
